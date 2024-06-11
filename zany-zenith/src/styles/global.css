@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'EagleBlack';
+    src: url('/fonts/EagleBlackRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EagleBook';
+    src: url('/fonts/EagleBookRegular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kosm';
+    src: url('/fonts/Kosm.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

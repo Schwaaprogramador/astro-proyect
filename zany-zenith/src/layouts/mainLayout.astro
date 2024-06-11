@@ -1,0 +1,21 @@
+---
+import "@/styles/global.css";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Global Metadata -->
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="favicon.ico" type="image/xicon"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Preloads -->
+        <link rel="preload" href="/fonts/EagleBookRegular.otf" as="font" type="font/otf"/>
+        <link rel="preload" href="/fonts/EagleBlackRegular.otf" as="font" type="font/otf"/>
+        <link rel="preload" href="/fonts/Kosm.otf" as="font" type="font/ttf"/>
+    <title>Schwaa Blog</title>
+</head>
+    <body>
+        <slot></slot>
+    </body>
+</html>
